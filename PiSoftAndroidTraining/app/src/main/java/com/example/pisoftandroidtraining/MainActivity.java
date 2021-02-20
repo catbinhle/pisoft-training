@@ -16,6 +16,8 @@ public class MainActivity extends Activity {
         Log.d(msg, "The onCreate() event");
     }
 
+//    Đại Hạnh
+
     @Override
     protected void onStart() {
         super.onStart();
