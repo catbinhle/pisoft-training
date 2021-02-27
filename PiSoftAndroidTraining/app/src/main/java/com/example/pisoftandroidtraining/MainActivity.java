@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.main_activity);
         Log.d(msg, "The onCreate() event");
     }
-
+// dsada
     @Override
     protected void onStart() {
         super.onStart();
