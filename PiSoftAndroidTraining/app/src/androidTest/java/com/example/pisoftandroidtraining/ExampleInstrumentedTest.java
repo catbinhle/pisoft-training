@@ -24,3 +24,4 @@ public class ExampleInstrumentedTest {
         assertEquals("com.example.pisoftandroidtraining", appContext.getPackageName());
     }
 }
+//thien truong duc
