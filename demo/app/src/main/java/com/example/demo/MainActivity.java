@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
         // start the SecondActivity
         Intent intent = new Intent(this, HelloUser.class);
-       // intent.putExtra(Intent.EXTRA_TEXT, textToPass);
        intent.putExtra("txtEmail", txtEmail);
         intent.putExtra("txtPassword", txtPassword);
         startActivity(intent);
