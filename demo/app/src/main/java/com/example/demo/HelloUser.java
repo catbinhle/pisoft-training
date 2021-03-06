@@ -17,12 +17,12 @@ public class HelloUser extends AppCompatActivity {
         Intent intent = getIntent();
         String email = intent.getStringExtra("txtEmail");
 
-        String password = intent.getStringExtra("txtPassword");
+//        String password = intent.getStringExtra("txtPassword");
 
         // use the text in a TextView
         TextView txtEmail = findViewById(R.id.txtEmail);
         txtEmail.setText(email);
-        TextView txtPassword = findViewById(R.id.txtPassword);
-        txtPassword.setText(password);
+//        TextView txtPassword = findViewById(R.id.txtPassword);
+//        txtPassword.setText(password);
     }
 }

@@ -19,16 +19,16 @@ public class MainActivity extends AppCompatActivity {
 
         // get the text to pass
         EditText email = findViewById(R.id.edtEmail);
-        EditText password = findViewById(R.id.edtPassword);
+//        EditText password = findViewById(R.id.edtPassword);
 
         String txtEmail = email.getText().toString();
-        String txtPassword = password.getText().toString();
+//        String txtPassword = password.getText().toString();
 
         // start the SecondActivity
         Intent intent = new Intent(this, HelloUser.class);
        // intent.putExtra(Intent.EXTRA_TEXT, textToPass);
        intent.putExtra("txtEmail", txtEmail);
-        intent.putExtra("txtPassword", txtPassword);
+//        intent.putExtra("txtPassword", txtPassword);
         startActivity(intent);
     }
 }
