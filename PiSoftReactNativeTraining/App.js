@@ -18,11 +18,18 @@ export default function App() {
             source={{
               uri: "https://reactnative.dev/docs/assets/p_cat2.png"
             }}
-            style={{ width: 200, height: 200}}
+            style={{ width: 200, height: 200 }}
           />
           <Text
-          style={{fontSize: 20, textAlign: "center", padding: 10, fontWeight:"bold"}}
-          >PiSoft Team Training</Text>
+            style={{
+              fontSize: 20,
+              textAlign: "center",
+              padding: 10,
+              fontWeight: "bold"
+            }}
+          >
+            PiSoft Team Training
+          </Text>
         </View>
         <View style={{ flexDirection: "row" }}>
           <Image
@@ -38,10 +45,9 @@ export default function App() {
               borderColor: "gray",
               borderWidth: 1,
               padding: 10,
-              borderRadius: 5,
-              
+              borderRadius: 5
             }}
-            defaultValue="You can type in me"
+            placeholder="You can type in me"
           />
         </View>
         <View style={{ flexDirection: "row" }}>
@@ -60,7 +66,7 @@ export default function App() {
               padding: 10,
               borderRadius: 5
             }}
-            defaultValue="You can type in me"
+            placeholder="You can type in me"
           />
         </View>
         <View style={{ flexDirection: "row" }}>
@@ -79,7 +85,7 @@ export default function App() {
               padding: 10,
               borderRadius: 5
             }}
-            defaultValue="You can type in me"
+            placeholder="You can type in me"
           />
         </View>
       </ScrollView>
